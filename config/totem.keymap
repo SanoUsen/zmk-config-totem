@@ -113,7 +113,7 @@
             bindings = <
         &trans  &trans     &kp UP    &trans     &trans    &kp TILDE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DEL
         &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans    &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
-&trans  &trans  &kp PG_UP  &trans    &kp PG_DN  &trans    &kp MINUS  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &trans   &trans
+&trans  &trans  &kp PG_UP  &kp LALT  &kp PG_DN  &trans    &kp MINUS  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &trans   &trans
                            &trans    &trans     &trans    &mo 3      &kp NUMBER_0  &kp RWIN
             >;
         };
@@ -137,9 +137,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp F10  &kp F11  &kp F11  &kp F12  &trans
-        &trans  &trans  &trans  &trans  &trans    &kp F6   &kp F7   &kp F8   &kp F9   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp F1   &kp F2   &kp F3   &kp F4   &kp F5  &trans
+        &trans  &trans  &trans  &trans  &trans    &kp F11  &kp F12  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &trans
                         &trans  &trans  &trans    &trans   &trans   &trans
             >;
         };
