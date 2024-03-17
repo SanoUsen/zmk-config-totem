@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q  &kp W  &kp E   &kp R        &kp T        &kp Y          &kp U              &kp I      &kp O    &kp P
-                  &kp A  &kp S  &kp D   &mt LSHFT F  &kp G        &kp H          &mt RIGHT_SHIFT J  &kp K      &kp L    &kp SEMICOLON
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C   &kp V        &kp B        &kp N          &kp M              &kp COMMA  &kp DOT  &kp QUESTION   &kp ESCAPE
-                                &tog 1  &kp SPACE    &kp ENTER    &kp RIGHT_ALT  &kp BACKSPACE      &tog 2
+           &kp Q  &kp W  &kp E   &kp R        &kp T        &kp Y          &kp U              &kp I      &kp O    &kp P
+           &kp A  &kp S  &kp D   &mt LSHFT F  &kp G        &kp H          &mt RIGHT_SHIFT J  &kp K      &kp L    &kp SEMICOLON
+&kp LCTRL  &kp Z  &kp X  &kp C   &kp V        &kp B        &kp N          &kp M              &kp COMMA  &kp DOT  &kp SLASH      &kp ESCAPE
+                         &tog 1  &kp SPACE    &kp ENTER    &kp RIGHT_ALT  &kp BACKSPACE      &tog 2
             >;
         };
 
@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp N1     &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                               &trans    &trans     &trans      &mo 3     &kp KP_N0  &trans
+        &trans  &trans     &kp UP    &trans     &trans    &kp TILDE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DEL
+        &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans    &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
+&trans  &trans  &kp PG_UP  &trans    &kp PG_DN  &trans    &kp MINUS  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &trans   &trans
+                           &trans    &trans     &trans    &mo 3      &kp NUMBER_0  &trans
             >;
         };
 
